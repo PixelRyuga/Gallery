@@ -15,13 +15,17 @@ export default function App() {
   return (
     <div className="app">
       <header className="header">
-        <h1>Portfolio</h1>
+        <h1>Gallery Showcase</h1>
+        <div className="screen-mode">
+         
+        </div>
         <div className="filter-bar">
           {names.map(name => (
             <button
               key={name}
               className={`filter-btn ${active === name ? 'active' : ''}`}
               onClick={() => setActive(name)}
+              
             >
               {name}
             </button>
