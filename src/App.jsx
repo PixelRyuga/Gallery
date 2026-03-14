@@ -5,8 +5,9 @@ import './App.css'
 const names = ['All', 'Andrie', 'Edgar', 'Avelino']
 
 export default function App() {
+
   const [active, setActive] = useState('All')
-  const [selected, setSelected] = useState(null)  
+  const [selected, setSelected] = useState(null)
 
   const filtered = active === 'All'
     ? photos
@@ -17,7 +18,7 @@ export default function App() {
       <header className="header">
         <h1>Gallery Showcase</h1>
         <div className="screen-mode">
-         
+
         </div>
         <div className="filter-bar">
           {names.map(name => (
@@ -25,7 +26,7 @@ export default function App() {
               key={name}
               className={`filter-btn ${active === name ? 'active' : ''}`}
               onClick={() => setActive(name)}
-              
+
             >
               {name}
             </button>
@@ -33,7 +34,7 @@ export default function App() {
         </div>
       </header>
       <p className="count">{filtered.length} photos</p>
-      
+
 
       <div className="gallery">
         {filtered.map(photo => (

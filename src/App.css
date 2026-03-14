@@ -11,8 +11,9 @@
 
 .header {
   padding: 2rem 1.5rem 1rem;
-  border-bottom: 1px solid #eeeeeeab;
+  border-bottom: 1px solid #dfddddab;
   margin-bottom: 1rem;
+  background-color: #dee4e7;
 }
 
 h1 {
@@ -58,7 +59,8 @@ h1 {
 
 .gallery {
   padding: 0 1.5rem 2rem;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
   flex-wrap: wrap;
   gap: 12px;
   overflow-y: auto;
@@ -100,7 +102,7 @@ h1 {
 .owner {
   font-size: 15px;
   font-weight: 500;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-transform: capitalize;
 }
 
@@ -153,4 +155,12 @@ h1 {
 }
 .dark-to-light{
   float: right;
+} 
+body{
+  background: #e8ecee;
+}
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+
 }
