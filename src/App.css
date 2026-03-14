@@ -11,7 +11,7 @@
 
 .header {
   padding: 2rem 1.5rem 1rem;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #eeeeeeab;
   margin-bottom: 1rem;
 }
 
@@ -38,7 +38,10 @@ h1 {
 
 .filter-btn:hover {
   background: #f0f0f0;
+  transform: translate3d(0,-4px,50px);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
+
 
 .filter-btn.active {
   background: #242424;
@@ -114,9 +117,9 @@ h1 {
 .photo-card:hover img {
   opacity: 0.85;
   transition: opacity 0.2s;
-   transform: translate3d(0, -4px, 50px);
+   transform: translate3d(0, -4px, -50px);
    transition: transform 0.3s ease;
-
+   
 }
 
 
@@ -147,4 +150,7 @@ h1 {
   margin-top: 1rem;
   font-size: 14px;
   opacity: 0.75;
+}
+.dark-to-light{
+  float: right;
 }

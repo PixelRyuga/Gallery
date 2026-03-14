@@ -32,8 +32,8 @@ export default function App() {
           ))}
         </div>
       </header>
-
       <p className="count">{filtered.length} photos</p>
+      
 
       <div className="gallery">
         {filtered.map(photo => (
