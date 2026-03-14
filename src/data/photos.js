@@ -10,6 +10,14 @@ import miaStarfall from '../images/Godinez_files/Mia Starfall.png'
 import zeinArklight from '../images/Godinez_files/Zein Arklight.png'
 import kinRyuga from '../images/Godinez_files/Kin Ryuga_Ver.2.png'
 
+import pic1 from '../images/Magallanes_files/am1.jpg'
+import pic2 from '../images/Magallanes_files/am2.jpg'
+import pic3 from '../images/Magallanes_files/am3.jpg'
+import pic4 from '../images/Magallanes_files/am4.jpg'
+import pic5 from '../images/Magallanes_files/am5.jpg'
+
+
+
 export const photos = [
   // Andrie Flores
   { id: 1,  owner: 'andrie',  src: evelynn,    caption: 'Evelynn' },
@@ -26,9 +34,9 @@ export const photos = [
   { id: 10, owner: 'edgar',   src: kinRyuga,     caption: 'Kin Ryuga' },
 
   // Avelino Magallanes
-  { id: 11, owner: 'avelino', src: null, caption: 'Coming soon' },
-  { id: 12, owner: 'avelino', src: null, caption: 'Coming soon' },
-  { id: 13, owner: 'avelino', src: null, caption: 'Coming soon' },
-  { id: 14, owner: 'avelino', src: null, caption: 'Coming soon' },
-  { id: 15, owner: 'avelino', src: null, caption: 'Coming soon' },
+  { id: 11, owner: 'avelino', src: pic1, caption: 'Robinson' },
+  { id: 12, owner: 'avelino', src: pic2, caption: 'Eggy' },
+  { id: 13, owner: 'avelino', src: pic3, caption: 'Flotes' },
+  { id: 14, owner: 'avelino', src: pic4, caption: 'Mr Dante' },
+  { id: 15, owner: 'avelino', src: pic5, caption: 'Dante vs Vergil' },
 ]
