@@ -13,7 +13,8 @@
   padding: 2rem 1.5rem 1rem;
   border-bottom: 1px solid #dfddddab;
   margin-bottom: 1rem;
-  background-color: #dee4e7;
+  background-color: rgba(233, 230, 230, 0.467);
+ 
 }
 
 h1 {
@@ -163,4 +164,99 @@ body{
   max-width: 1200px;
   margin: 0 auto;
 
+}
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.theme-btn {
+  background: transparent;
+  border: 1px solid #ccc;
+  border-radius: 999px;
+  padding: 6px 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+}
+.theme-btn:hover{
+   transform: translate3d(0,-4px,50px);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.theme-btn img {
+  width: 20px;
+  height: 20px;
+}
+.dark {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+.dark .header {
+  background-color: #111010;
+  border-bottom-color: #333;
+}
+
+.dark h1 {
+  color: #f0f0f0;
+}
+
+.dark .filter-btn {
+  border-color: #444;
+  color: #ccc;
+}
+
+.dark .filter-btn:hover {
+  background: #2a2a2a;
+}
+
+.dark .filter-btn.active {
+  background: white;
+  color: black;
+  border-color: white;
+}
+
+.dark .photo-card {
+  border-color: #333;
+}
+
+.dark .photo-meta {
+  border-top-color: #333;
+  background: #1e1e1e;
+}
+
+.dark .owner {
+  color: #f0f0f0;
+}
+
+.dark .caption {
+  color: #888;
+}
+
+.dark .placeholder {
+  background: #2a2a2a;
+  color: #555;
+}
+
+.dark .count {
+  color: #666;
+}
+
+.dark .theme-btn {
+  border-color: #918e8e;
+}
+
+.dark .theme-btn:hover{
+box-shadow: 7px 7px 55px -1px rgba(107,103,103,0.85);
+-webkit-box-shadow: 7px 7px 55px -1px rgba(107,103,103,0.85);
+-moz-box-shadow: 7px 7px 55px -1px rgba(107,103,103,0.85);
+}
+.dark .filter-btn:hover{
+ box-shadow: 7px 7px 55px -1px rgba(107,103,103,0.85);
+-webkit-box-shadow: 7px 7px 55px -1px rgba(107,103,103,0.85);
+-moz-box-shadow: 7px 7px 55px -1px rgba(107,103,103,0.85);
 }

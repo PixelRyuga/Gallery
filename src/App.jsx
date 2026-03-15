@@ -2,24 +2,35 @@ import { useState } from 'react'
 import { photos } from './data/photos'
 import './App.css'
 
+//icons
+
+import moonIcon from './assets/moon.png'
+import sunIcon from './assets/sun.png'
+
 const names = ['All', 'Andrie', 'Edgar', 'Avelino']
 
 export default function App() {
 
   const [active, setActive] = useState('All')
   const [selected, setSelected] = useState(null)
+  const [darkMode, setDarkMode] = useState(false)
 
   const filtered = active === 'All'
     ? photos
     : photos.filter(p => p.owner === active.toLowerCase())
 
   return (
-    <div className="app">
+     <div className={`app ${darkMode ? 'dark' : ''}`}>  {/*dark mode class */}
+     
       <header className="header">
+        <div className="header-top">
         <h1>Gallery Showcase</h1>
-        <div className="screen-mode">
 
+         <button className="theme-btn" onClick={() => setDarkMode(!darkMode)}>
+            <img src={darkMode ? sunIcon : moonIcon} alt="toggle theme" />
+          </button>
         </div>
+
         <div className="filter-bar">
           {names.map(name => (
             <button
