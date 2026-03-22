@@ -9,6 +9,15 @@ import riyoAndR1Y0 from '../images/Godinez_files/Riyo and R1_Y0.png'
 import miaStarfall from '../images/Godinez_files/Mia Starfall.png'
 import zeinArklight from '../images/Godinez_files/Zein Arklight.png'
 import kinRyuga from '../images/Godinez_files/Kin Ryuga_Ver.2.png'
+import page1 from '../images/Godinez_files/page 1.png'
+import page2 from '../images/Godinez_files/page 2.png'
+import page3 from '../images/Godinez_files/page 3.png'
+import page4 from '../images/Godinez_files/page 4.png'
+import page5 from '../images/Godinez_files/page 5.png'
+import page6 from '../images/Godinez_files/page 6.png'
+import page7 from '../images/Godinez_files/page 7.png'
+import page8 from '../images/Godinez_files/page 8.png'
+import page9 from '../images/Godinez_files/page 9.png'
 
 import pic1 from '../images/Magallanes_files/am1.jpg'
 import pic2 from '../images/Magallanes_files/am2.jpg'
@@ -32,6 +41,15 @@ export const photos = [
   { id: 8,  owner: 'edgar',   src: miaStarfall,  caption: 'Mia Starfall' },
   { id: 9,  owner: 'edgar',   src: zeinArklight, caption: 'Zein Arklight' },
   { id: 10, owner: 'edgar',   src: kinRyuga,     caption: 'Kin Ryuga' },
+  { id: 11, owner: 'edgar',   src: page1,     caption: 'Page 1' },
+  { id: 12, owner: 'edgar',   src: page2,     caption: 'Page 2' },
+  { id: 13, owner: 'edgar',   src: page3,     caption: 'Page 3' },
+  { id: 14, owner: 'edgar',   src: page4,     caption: 'Page 4' },
+  { id: 15, owner: 'edgar',   src: page5,     caption: 'Page 5' },
+  { id: 16, owner: 'edgar',   src: page6,     caption: 'Page 6' },
+  { id: 17, owner: 'edgar',   src: page7,     caption: 'Page 7' },
+  { id: 18, owner: 'edgar',   src: page8,     caption: 'Page 8' },
+  { id: 19, owner: 'edgar',   src: page9,     caption: 'Page 9' },
 
   // Avelino Magallanes
   { id: 11, owner: 'avelino', src: pic1, caption: 'Robinson' },
